@@ -45,33 +45,21 @@ $$\text{CGPA} = \frac{\text{Grand Total Quality Points}}{\text{Grand Total Credi
 
 ---
 
-## 🚀 How to Run the Program Locally
+## 🚀 How to Run the Program Locally (Using Dev-C++)
 
 ### Prerequisites
-You need a C++ compiler installed on your system (like **GCC/MinGW** for Windows, **Clang** for macOS, or **GCC** for Linux).
+Ensure you have **Dev-C++** installed on your Windows PC. Dev-C++ is a lightweight IDE (Integrated Development Environment) that includes a pre-packaged C++ compiler.
 
-### Steps
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/cgpa-calculator.git
-    cd cgpa-calculator
-    ```
-
-2.  **Compile the code:**
-    Use your preferred terminal to compile `main.cpp`:
-    ```bash
-    g++ -o cgpa_calculator main.cpp
-    ```
-
-3.  **Run the application:**
-    *   **Windows:**
-        ```bash
-        cgpa_calculator.exe
-        ```
-    *   **Mac/Linux:**
-        ```bash
-        ./cgpa_calculator
-        ```
+### Steps to Run:
+1.  **Download the Project:**
+    *   Download the repository files to your computer (either by cloning it with Git or clicking the green **Code** button on GitHub and choosing **Download ZIP**).
+2.  **Open the code in Dev-C++:**
+    *   Launch **Dev-C++**.
+    *   Go to the top menu and select **File ➡️ Open Project or File...** (or press `Ctrl + O`).
+    *   Navigate to your downloaded folder and select **`main.cpp`**.
+3.  **Compile & Run:**
+    *   Go to the top menu and click on **Execute ➡️ Compile & Run** (or simply press the **`F11`** hotkey on your keyboard).
+    *   A console window will pop up showing the Statistics Department CGPA Calculator running!
 
 ---
 
