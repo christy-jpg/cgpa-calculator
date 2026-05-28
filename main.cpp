@@ -1,3 +1,23 @@
+/*
+ * ======================================================================================
+ * PROJECT: Statistics Department CGPA Calculator
+ * COURSE: Fundamentals of Programming (Comp 2012)
+ * INSTITUTION: Addis Ababa University
+ *              College of Natural and Computational Sciences
+ *              Department of Statistics
+ * 
+ * INSTRUCTOR: Ashebir Dohe
+ * SUBMISSION DATE: June 4, 2026
+ * 
+ * GROUP MEMBERS:
+ * 1. Betelhem Kemachew  -  ugr/1155/17
+ * 2. Bezawit Abrdom     -  ugr/3407/17
+ * 3. Christian Bisrat   -  ugr/5145/17
+ * 4. Dawit Nigus        -  ugr/4015/17
+ * 5. Lazary Ephrem      -  ugr/0883/17
+ * ======================================================================================
+ */
+
 #include <iostream>  // Allows us to use input and output (cin and cout)
 #include <string>    // Allows us to use the string data type
 #include <cctype>    // neede for toupper, to change lowercase to upercase with no trouble.

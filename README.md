@@ -1,5 +1,27 @@
 # 📊 Statistics Department CGPA Calculator
 
+> **🏫 Addis Ababa University**  
+> **🏫 College of Natural and Computational Sciences**  
+> **🏫 Department of Statistics**
+
+---
+
+### 📝 Assignment Metadata
+*   **Course:** Fundamentals of Programming (Comp 2012)
+*   **Instructor:** Ashebir Dohe
+*   **Submission Date:** June 4, 2026
+
+### 👥 Group Members & IDs
+| Name | Student ID |
+| :--- | :--- |
+| **Betelhem Kemachew** | `ugr/1155/17` |
+| **Bezawit Abrdom** | `ugr/3407/17` |
+| **Christian Bisrat** | `ugr/5145/17` |
+| **Dawit Nigus** | `ugr/4015/17` |
+| **Lazary Ephrem** | `ugr/0883/17` |
+
+---
+
 A robust, console-based C++ application designed to help university students calculate their Semester GPA and Cumulative Grade Point Average (CGPA). Preloaded with a complete, multi-semester Statistics curriculum, this tool allows students to calculate, simulate, and plan their academic progress easily.
 
 ---
