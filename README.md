@@ -18,6 +18,7 @@
 | **Bezawit Abrdom** | `ugr/3407/17` |
 | **Christian Bisrat** | `ugr/5145/17` |
 | **Dawit Nigus** | `ugr/4015/17` |
+| **Helen Getachew**| `ugr/8285/17` |
 | **Lazary Ephrem** | `ugr/0883/17` |
 
 ---
