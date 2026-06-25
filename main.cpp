@@ -14,7 +14,8 @@
  * 2. Bezawit Abrdom     -  ugr/3407/17
  * 3. Christian Bisrat   -  ugr/5145/17
  * 4. Dawit Nigus        -  ugr/4015/17
- * 5. Lazary Ephrem      -  ugr/0883/17
+ * 5. Helen Getachew     -  ugr/8285/17
+ * 6. Lazary Ephrem      -  ugr/0883/17
  * ======================================================================================
  */
 
