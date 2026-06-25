@@ -708,11 +708,11 @@ void calculateMultipleSemesterCGPA()
             if (choice == 1)
             {
                 cout << "Enter your score (0 - 100): ";
-                cin >> numericScore;
-                while (numericScore < 0 || numericScore > 100)
+                while (!(cin >> numericScore) || numericScore < 0 || numericScore > 100)
                 {
                     cout << "Invalid score. Please enter a value between 0 and 100: ";
-                    cin >> numericScore;
+                    cin.clear();            // Clear any error flags set on cin
+                    cin.ignore(10000, '\n'); // Discard incorrect characters in the input buffer
                 }
                 // Convert score to grade point.
                 gradePoint = numericToPoint(numericScore);
@@ -809,6 +809,12 @@ The function returns a double because grade points can contain decimal values su
 
 double numericToPoint(int score)
 {
+    // Validate score range
+    if (score < 0 || score > 100)
+    {
+        return 0.0;
+    }
+
     // If the score is between 90 and 100,the student gets A+ with 4.0 points.
     if (score >= 90)
         return 4.0;
@@ -860,6 +866,12 @@ The function returns a string because letter grades are text values such as "A+"
 
 string numericToLetter(int score)
 {
+    // Validate score range
+    if (score < 0 || score > 100)
+    {
+        return "Invalid";
+    }
+
     // Score 90 to 100 -> A+
     if (score >= 90)
         return "A+";
